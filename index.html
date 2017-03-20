@@ -8,40 +8,72 @@
 	<link href="site.css" rel="stylesheet" type="text/css"/>
 
 </head>
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-image: url('img/main/ruke2.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.nav-home {
+		text-align: center;
+		position: fixed;
+		bottom: 7%;
+		width: 100%;
+		left: 0;
+		/*background: rgba(1, 71, 208,.7);*/
+		color: #FFFF00;
+		text-shadow: 2px 2px #000000;
+		font-size: 32px;
+		padding: 20px;
+	}
+	a {
+		display: inline-block;
+		color: #FFFF00;
+		transition: color .5s;
+	}
+	a:hover {
+		color: #baa127;
+	}
+	.lang {
+		position: fixed;
+		right: 20px;
+		top: 20px;
+		font-size: 23px;
+	}
+	.lang a {
+		padding: 0 10px;
+	}
+	@media (max-width: 800px) {
+		.nav-home {
+
+			font-size: 22px;
+		}
+	}
+</style>
 <body>
 	<div class="container relative">
-		<div class="img">
-			<img src="1.jpg"><img class="absolute" src="1o.jpg">
+		<div class="lang">
+			<a href="/en.html">SR</a>
+			<a href="/">EN</a>
 		</div>
-		<div class="nav clearfix">
-			<a>Uvod</a> -
-			<a href="/sta.html">Šta je</a> -
-			<a href="/zasto.html">Zašto</a> -
-			<a href="/kada.html">Kada</a> -
-			<a href="/kada-ne.html">Kada ne</a>
+		<div class="nav-home">
+			<h1>Terapija Božanstvene Masaže</h1>
+			<a href="/sta.html">šta je</a> -
+			<a href="/zasto.html">šta da očekujemo</a> -
+			<a href="/kada.html">sta leči</a> -
+			<a href="/kada-ne.html">kada ne</a> -
+			<a href="/kicma.html">sve o kičmi</a>
 			<div class="visible-small">
 				<br><br>
 			</div>
-			<a href="/en.html" class="right">SR</a>
-			<a href="/" class="right">EN</a>
 		</div>
-		<div class="content">
-			<h2>- Zašto terapija Božanstvene masaže: -</h2>
+		
 
-			<p>Specijalna Orijentalna Božanstvena Masaža je manuelna terapija, čijom se tehnikom izvlači životna sila u svrhu lečenja karlice, uz blagotvorno duhovno energetsko isceljenje.</p>
 
-			<p>Uz ovakvu masažu najbolje pristaje pridev Božanstvena, jer ona to uistinu jeste. Prednost ove tehnike je u tome sto se na brz i efikasan način postiže veliki uspeh. Terapijski efekat se ogleda u smislu velikog olakšanja i poboljšanja funkcije organizma, i osećate promene na bolje posle nekoliko dana.</p>
-
-			<p>Interesantno je da posle prvog ili drugog tretmana dolazi do prolaznog pogoršanja opštih simptoma poremećaja i bolesti, ali je to terapeutu znak da je pokrenut organizam i da reaguje na samu masažu.</p>
-		</div>
-
-		<div class="footer">
-			<br>
-			e-mail: <a href="mailto:alek.stosic2@gmail.com">alek.stosic2@gmail.com</a>
-			Slovenija: +386 41 553 781<br><br>
-			Srbija: +381 62 628 379
-			<br><br><br><br>
-		</div>
 	</div>
 
 
