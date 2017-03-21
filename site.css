@@ -37,6 +37,10 @@ a {
 
 .nav h1 a {
 	color: yellow;
+	text-shadow: 1px 1px #000000;
+}
+.nav h1 a img{
+	margin: 0 10px;
 }
 .visible-small {
 	display: none;
