@@ -65,4 +65,39 @@ a {
 .footer {
 	text-align: center;
 	background-color: #fff;
+	position: relative;
+}
+.footer .lhand {
+	position: absolute;
+	left: 12%;
+	top: 0;
+	width: auto;
+}
+.footer .rhand {
+	position: absolute;
+	right: 12%;
+	top: 0;
+	width: auto;
+}
+.footer-content {
+	z-index: 1;
+	position: relative;
+}
+@media (max-width: 900px) {
+	.footer .lhand {
+		left: 0;
+	}
+	.footer .rhand {
+		right: 0;
+	}
+}
+@media (max-width: 520px) {
+	.footer .lhand {
+		left: 0;
+		width: 40%;
+	}
+	.footer .rhand {
+		right: 0;
+		width: 40%;
+	}
 }
